@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.template.untitled2
+Exec=/usr/bin/ru.template.untitled2
+Name=Template
+Name[ru]=Шаблон
+
+[X-Application]
+Permissions=Sensors;PushNotifications;DeviceInfo;Internet;Location;RemovableMedia;UserDirs
+OrganizationName=ru.template
+ApplicationName=untitled2
+ExecDBus=/usr/bin/ru.template.untitled2
