@@ -1,0 +1,12 @@
+prefix=/g/fruct/auroraos-tensorflow/vendor/armv7
+exec_prefix=/g/fruct/auroraos-tensorflow/vendor/armv7
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libcpuinfo
+Description: Library to detect essential performance optimization information about host CPU.
+Version: 
+URL: 
+Libs: -L${libdir} -lcpuinfo
+Cflags: -I${includedir}
+

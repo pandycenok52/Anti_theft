@@ -1,0 +1,12 @@
+prefix=/home/makkost/AuroraPlatformSDK/projects/tensorflow_install
+exec_prefix=${prefix}
+libdir=/home/makkost/AuroraPlatformSDK/projects/tensorflow_install/lib
+includedir=/home/makkost/AuroraPlatformSDK/projects/tensorflow_install/include
+
+Name: absl_random_seed_gen_exception
+Description: Abseil random_seed_gen_exception library
+URL: https://abseil.io/
+Version: 20240116
+Requires: absl_config = 20240116
+Libs: -L${libdir}  -labsl_random_seed_gen_exception 
+Cflags: -I${includedir} -DNOMINMAX

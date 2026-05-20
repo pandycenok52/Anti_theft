@@ -1,0 +1,9 @@
+libdir=/home/makkost/AuroraPlatformSDK/projects/tensorflow_install/lib
+includedir=/home/makkost/AuroraPlatformSDK/projects/tensorflow_install/include
+
+Name: FlatBuffers
+Description: Memory Efficient Serialization Library
+Version: 23.5.26
+
+Libs: -L${libdir} -lflatbuffers
+Cflags: -I${includedir}

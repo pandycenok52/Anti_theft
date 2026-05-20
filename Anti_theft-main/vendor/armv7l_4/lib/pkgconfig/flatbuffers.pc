@@ -1,0 +1,9 @@
+libdir=/g/fruct/auroraos-tensorflow/vendor/armv7l/lib
+includedir=/g/fruct/auroraos-tensorflow/vendor/armv7l/include
+
+Name: FlatBuffers
+Description: Memory Efficient Serialization Library
+Version: 1.12.0
+
+Libs: -L${libdir} -lflatbuffers
+Cflags: -I${includedir}

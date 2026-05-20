@@ -1,0 +1,12 @@
+prefix=/g/fruct/auroraos-tensorflow/vendor/i486
+exec_prefix=${prefix}
+libdir=/g/fruct/auroraos-tensorflow/vendor/i486/lib
+includedir=/g/fruct/auroraos-tensorflow/vendor/i486/include
+
+Name: absl_config
+Description: Abseil config library
+URL: https://abseil.io/
+Version: 20240116
+Requires:
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX
